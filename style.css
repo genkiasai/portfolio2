@@ -1,8 +1,14 @@
 body {
 }
 
+.row {
+    
+}
+/* ヘッダーここから */
 nav {
     display: flex;
+    padding: 18px;
+    font-size: .9em;
 }
 
 .nav__menu {
@@ -16,6 +22,8 @@ nav {
 .nav__logo {
     text-align: left;
     margin-right: 80px;
+    padding: 0 16px;
+    font-family: serif;
 }
 
 .nav__logo-a {
@@ -61,3 +69,49 @@ nav {
     text-decoration: none;
     color: rosybrown;
 }
+
+/* ヘッダーここまで */
+
+/* wrapper-1ここから */
+/* .wrapper-1 {
+    background-image: url("./images/header_01.webp");
+} */
+.wrapper-1-img {
+    width: 100%;
+}
+
+.wrapper-1-catch-copy {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.wrapper-1-h {
+    font-family: 'Pinyon Script', serif, cursive;
+    font-size: 6.0em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.wrapper-1-p {
+    margin-top: -32px;
+    margin-left: -8px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+/* wrapper-1ここまで */
+
+/* wrapper-2ここから */
+.wrapper-2 {
+    position: relative;
+}
+
+.section-2-1 {
+    
+}
+
+.wrapper-2-img {
+    width: 100%;
+}
+/* wrapper-2ここまで */
