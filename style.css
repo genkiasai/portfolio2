@@ -1,7 +1,8 @@
-body {
+/* ヘッダーここから */
+header {
+    background-color: #fff;
 }
 
-/* ヘッダーここから */
 nav {
     display: flex;
     padding: 18px;
@@ -106,7 +107,8 @@ nav {
 /* wrapper-2ここから */
 .wrapper-2 {
     position: relative;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background-color: #fff;
 }
 
 .section-2 {
@@ -248,13 +250,36 @@ nav {
 .contents-2-2-4 {
     margin-top: 1%;
 }
+
+.aaaaa {
+    position: absolute;
+    width: 100%;
+    top: -30%;
+}
+
+.section-2-1 {
+    margin: 0 auto;
+}
 /* wrapper-2ここまで */
 
 /* wrapper-3ここから */
 .wrapper-3 {
-    background-image: url("./images/wrapper-3_l.webp");
-    background-size: cover;
+    /* background-image: url("./images/wrapper-3_l.webp");
+    background-size: cover; */
     height: 500px;
+}
+
+.wrapper-3::before {
+    background: url("./images/wrapper-3_l.webp") no-repeat center;/* 画像（ここにfixedは入れない） */
+    background-size: cover;/* cover指定できる */
+    content: "";
+    display: block;
+    position: fixed;/* 擬似要素ごと固定 */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;/* 横幅いっぱい */
+    height: 100vh;/* 縦幅いっぱい */
 }
 
 /* wrapper-3ここまで */
