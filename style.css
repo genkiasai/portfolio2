@@ -387,17 +387,25 @@ li {
 /* wrapper-4ここまで */
 
 /* wrapper-5ここから */
-video {
-    width: 100%;
+.wrapper-5 {
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
 }
 
 .section-5 {
     background-color: #000;
     margin: 0 auto;
     width: 600px;
-    height: 600px;
     text-align: center;
     color: #fff;
+    padding: 5% 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .contents-5 {
@@ -408,7 +416,6 @@ video {
     height: 3px;
     width: 10%;
     margin: 0 auto;
-    padding-top: 15%;
     border-bottom: 3px solid #fff;
 }
 
@@ -439,12 +446,32 @@ video {
     width: 50%;
 }
 
+.box-5-1 {
+    text-align: left;
+}
+
+.box-5-2 {
+    text-align: right;
+    display: flex;
+}
+
 .wrapper-5__input {
     width: 95%;
     background-color: #000;
     border-color: #fff;
     color: #fff;
-    margin: 2% 0;
+}
+
+.wrapper-5__input-1 {
+    margin-bottom: 5%;
+}
+
+.wrapper-5__input-3 {
+    margin-top: 5%;
+}
+
+.wrapper-5__input-4 {
+    align-self: stretch;
 }
 
 .wrapper-5__input-5 {
@@ -453,9 +480,31 @@ video {
     border-color: peachpuff;
     border-style: solid;
     color: #000;
+    margin: 2% 0;
 }
 
 .wrapper-5__input:-webkit-autofill {
     box-shadow: 0 0 0 1000px black inset;
+    color: #fff;
+}
+
+.contents-5-a-wrap {
+    margin-top: 5%;
+}
+
+.contents-5-a {
+    color: lightsalmon;
+}
+
+.contents-5-a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 /* wrapper-5ここまで */
+
+/* フッターここから */
+footer {
+    height: 200px;
+    background-color: #000;
+    }
+/* フッターここまで */

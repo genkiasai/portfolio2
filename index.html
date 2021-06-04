@@ -196,9 +196,9 @@
                                 <textarea class="wrapper-5__input wrapper-5__input-4" name="" id="" cols="30" rows="" placeholder="メッセージ"></textarea>
                             </div>
                         </div>
-                        <input class="wrapper-5__input wrapper-5__input-5" type="submit" value="送信する">
+                        <input class="wrapper-5__input-5" type="submit" value="送信する">
                     </div>
-                    <div class="contents-5-a-wrap"><a class="contents-5-a" href="#">アクセス情報はこちら</a></div>
+                    <div class="contents-5-a-wrap"><a class="contents-5-a" href="#">アクセス情報はこちら ＞</a></div>
                 </div>
             </form>
         </div>
@@ -206,7 +206,7 @@
     </main>
 
     <footer>
-
+        
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -214,11 +214,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
         $(".wrapper-5__input").on("keydown keyup keypress change focus blur", function() {
-            if ($(this).val() == "") {
+            // if ($(this).val() == "") {
                 $(this).css ("backgroundColor", "#000");
-            } else {
-                $(this).css ("backgroundColor", "#000");
-            }
+            // } else {
+                // $(this).css ("backgroundColor", "#000");
+            // }
         }).change();
 
 
