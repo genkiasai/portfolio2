@@ -419,47 +419,43 @@ video {
     font-size: 4.0em;
 }
 
-.contents-3-2 {
+.block-5-3-input {
     display: flex;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
-.contents-3-2-1 {
-    text-align: left;
-}
-
-.contents-3-2-2 {
-    text-align: right;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-}
-
-.contents-3-li {
-    line-height: 3.0rem;
-}
-
-.contents-3-a-wrap {
-    width: 100%;
+.contents-5-2 {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
-    padding: 10% 0;
 }
 
-.contents-3-a {
-    color: #fff;
-    text-decoration: none;
+.block-5 {
+    text-align: center;
 }
 
-.contents-3-a:hover {
+.box-5 {
+    width: 50%;
+}
+
+.wrapper-5__input {
+    width: 95%;
+    background-color: #000;
+    border-color: #fff;
     color: #fff;
-    text-decoration: none;
-    color: lightsalmon;
+    margin: 2% 0;
+}
+
+.wrapper-5__input-5 {
+    width: 100%;
+    background-color: peachpuff;
+    border-color: peachpuff;
+    border-style: solid;
+    color: #000;
+}
+
+.wrapper-5__input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px black inset;
 }
 /* wrapper-5ここまで */
